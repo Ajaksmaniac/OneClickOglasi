@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"  >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+
+            android:title="Home"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/nav_user_email"
+
+            android:textColor="#FFFFFF"
+
+
+            android:text="s" />
+
+    </group>
+    <group
+        android:background="#FFFFFF"
+        android:checkableBehavior="single"
+        android:textColor="#FFFFFF"
+        android:title="Profile"
+        >
+        <item
+
+
+            android:title="" >
+        <menu>
+            <item
+                android:id="@+id/nav_group_profile"
+
+                android:checkable="false"
+                android:title="User" />
+            <item
+
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login_icon"
+
+
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/profile_icon"
+                android:textColor="#FFFFFF"
+                android:title="Profile"
+
+                />
+            <item
+                android:id="@+id/nav_addPost"
+                android:icon="@drawable/add_icon"
+                android:textColor="#FFFFFF"
+                android:title="Add new Item to sell" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:textColor="#FFFFFF"
+                android:title="Settings"
+
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:textColor="#FFFFFF"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_SignUp"
+                android:icon="@drawable/signup_icon"
+                android:textColor="#FFFFFF"
+                android:title="Sign Up" />
+
+        </menu>
+        </item>
+
+    </group>
+    <item android:title=""
+      >
+        <menu>
+            <item
+                android:id="@+id/nav_group_communicate"
+
+                android:checkable="false"
+                android:title="Communicate" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:color="#FFF"
+                android:title="Share"
+               />
+
+        </menu>
+
+    </item>
+
+
+</menu>

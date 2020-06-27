@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#272724"
+    android:orientation="vertical"
+>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#232322"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/back_arrow"
+       />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/person_icon"/>
+        />
+
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:text="@string/login_string"
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

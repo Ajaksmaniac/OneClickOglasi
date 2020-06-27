@@ -1,0 +1,23 @@
++ ADD BACK TOOLBAR TO SIGNUP        DONE
+    Classic Tollbar that contains back arrow
+
++ ADD POST ITEM PAGE
+    Should have all input fields that one post requires DONE
+    Image of the post should be picked by using camera or browsing local storage,  DONE
+    all post images should be saved localy(SQLITE DB)  because of storage limitations on DB
+
++ ADD SIGN UP PAGE DONE
+    Complete field input logic  DONE
+
++ ADD PROFILE SETTING PAGE
+
+
++ ADD POST PAGE  DONE
+
++ MAKE SQLITE DB to save currently logged user and images
+
+
+
+-PROBLEMS
+    DATABASE CANT HANDLE MANY CONNECTIONS, DATABSE HAS 5MB STORAGE LIMIT (Solved bt upgrading to better Database)
+

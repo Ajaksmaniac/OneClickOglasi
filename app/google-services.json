@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606835292481",
+    "firebase_url": "https://clickoglasi-ad095.firebaseio.com",
+    "project_id": "clickoglasi-ad095",
+    "storage_bucket": "clickoglasi-ad095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606835292481:android:9889c3acaa22d8b34d49c0",
+        "android_client_info": {
+          "package_name": "com.example.oneclickoglasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606835292481-ld03nhd4iggfqo050m1g1btfc3ldkf67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oneclickoglasi",
+            "certificate_hash": "2166ca7d9ab765f4e646317a504bd2b1b5d11259"
+          }
+        },
+        {
+          "client_id": "606835292481-1kik155u04ui69gvtppevkisu0v0uvvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcJtuqyWF1CeCK6cSBNf-cced6JT48URc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606835292481-1kik155u04ui69gvtppevkisu0v0uvvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
