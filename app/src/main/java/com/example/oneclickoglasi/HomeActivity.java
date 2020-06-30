@@ -114,6 +114,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
             View headerLayout = navigationView.inflateHeaderView(R.layout.header);
             ((TextView)headerLayout.findViewById(R.id.navigation_header_user_email)).setText(user.getEmail());
+           // ((TextView)headerLayout.findViewById(R.id.navigation_header_user_username)).setText(user.getDisplayName());
            // System.out.println();
             navigationView.getMenu().findItem(R.id.nav_settings).setVisible(true);
             navigationView.getMenu().findItem(R.id.nav_login).setVisible(false);

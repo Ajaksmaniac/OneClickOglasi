@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/design_default_color_background">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="282dp"
-        android:layout_height="363dp"
+        android:layout_width="340dp"
+        android:layout_height="535dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/untitled" />
 </androidx.constraintlayout.widget.ConstraintLayout>

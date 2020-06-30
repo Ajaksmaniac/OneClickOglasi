@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="#393935">
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
 
@@ -19,13 +20,40 @@
             android:background="#272724"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
-            app:navigationIcon="@drawable/back_arrow"/>
+            app:navigationIcon="@drawable/back_arrow"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="230dp"
+
+                android:background="@drawable/ic_share_black_24dp"
+
+                >
+
+            </androidx.appcompat.widget.AppCompatImageView>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/ic_favorite_border_black_24dp"
+
+                >
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+
+        </androidx.appcompat.widget.Toolbar>
 
         <ImageView
             android:id="@+id/itemImage"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            app:srcCompat="@android:drawable/ic_input_get" />
+            app:srcCompat="@android:drawable/ic_input_get"
+            android:background="@color/design_default_color_surface"/>
 
         <TextView
             android:id="@+id/itemName"
@@ -42,6 +70,7 @@
             android:layout_height="50dp"
             android:textSize="35dp"
             android:gravity="end"
+            android:textColor="#FF5722"
            />
 
         <TextView
@@ -54,13 +83,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="15dp"
+            android:textColor="#CDDC39"
+
+            />
         <TextView
             android:id="@+id/postedByName"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textSize="25dp"
             android:gravity="start"
+            android:background="@color/colorAccent"
             />
         <TextView
             android:id="@+id/postedByEmail"
@@ -68,24 +101,30 @@
             android:layout_height="50dp"
             android:textSize="25dp"
             android:gravity="start"
+            android:background="@color/colorAccent"
             />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/colorAccent">
 
             <TextView
                 android:id="@+id/postedByPhone"
                 android:layout_width="297dp"
                 android:layout_height="match_parent"
                 android:gravity="start"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+
+                />
 
             <ImageView
                 android:id="@+id/callPosterPhone"
                 android:layout_width="62dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@android:drawable/sym_action_call">
+                app:srcCompat="@android:drawable/sym_action_call"
+
+                >
 
             </ImageView>
         </LinearLayout>
